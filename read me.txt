@@ -1,0 +1,23 @@
+Truss Simulator
+PROGRAM VERSION: Alpha 1.0
+MATLAB VERSION: R2014b
+
+CONTROLS:
+-To build members, use the dropdown menus to select a material, then click once on an existing node. Click again to create the member. In the furure, there will be a dropdown for different shapes- the current shape ("Shape 1") is a "W 150x14" I-beam.
+-To delete members or nodes, hold shift and click them.
+-To simulate, press the button.
+-To move the camera and zoom in, use the WASD keys and the mouse's scroll wheel.
+
+NOTES:
+-There's still a lot of work to be done, I'd like to add the ability to change the beam's shape, and the placement of the starting (rigid) nodes.
+-By the final version, I'd like to add a way to place a load on the system, probably a train or series of heavy cars that could try to cross your structure as if it were a bridge (one of the shapes would have to be "Train Track" or "Roadway," so the vehicles only collide with certain members.
+-The purpose of having osmium as a material is to provide an easier way to add weight to the system, I'll probably remove it once I add different shapes- as larger cross sections will probably add enough weight regardless of the material.
+-In the grid, each square has a side length of 1 meter.
+-In a later version, I'll add a slider to ajust the timestep and FPS of the simulation, as they dramatically affect accuracy and runtime.
+-I'm probably going to redo the camera system, right now you can use the WASD keys to move, and the mouse to zoom in and out, but the code is buggy and inefficent.
+-I'll comment the code more in later versions.
+-I'm also thinking about a way to save trusses, that shouldn't be too dificult.
+-I'd like to make a copy-pase function to simplify making structures with a lot of repetition, but that'll be fairly difficult to do.
+-I don't like the sound of "Truss Simulator," I may jazz up the name later.
+
+If you have any questions about the program, it's plans for the future, or it's purpose, email me at wab66@case.edu or william.breckwoldt@case.edu
